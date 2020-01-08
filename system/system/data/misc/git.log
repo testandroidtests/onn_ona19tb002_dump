@@ -1,0 +1,2819 @@
+Build Path: /mnt/disk03/kuangzc/work/P08163_git/alps
+Build Branch: C732I_ZX_6561_1025
+Build Time: 2019-11-11 15:18
+Build Author:kuangzc
+Build Server:192.168.122.249
+
+
+out/target/product/tb8163p3_64_bsp/system/data/misc
+out/target/product/tb8163p3_64_bsp/
+
+commit 730ce3c0c8c2f9861802a72f2c88e0168ba72d97
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Tue Nov 5 10:09:11 2019 +0800
+
+    private DNS默认自动
+
+commit 8692159e94da559e4bf2d9ad0052f336a218da01
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Tue Nov 5 10:00:23 2019 +0800
+
+    ACSA:ro.com.google.acsa=true
+    target SDK FAIL
+
+commit 749bb88737390c0a24c33f17efdc04264e5c9cde
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Mon Oct 28 17:27:38 2019 +0800
+
+    取消odex 编译防止system分区超出
+
+commit 91260dd56ae49512494a8480fb9c9deaa517c52f
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Oct 26 14:23:16 2019 +0800
+
+    gms.mk修改
+
+commit f4527a30d2be9e9a7f2c4d3cfca3e1b57bac6325
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Fri Oct 25 16:09:26 2019 +0800
+
+    gms version:ro.com.google.gmsversion=9_201910
+
+commit d591940a2f9076e1420b7321ebb15078ee7dcacc
+Author: 张涌 <zhangyong@joyargroup.com>
+Date:   Tue Sep 10 10:19:06 2019 +0800
+
+    gms version:ro.com.google.gmsversion=9_201909
+
+commit 20b9ba24f903f24d6384ccc52707dccb5f238b65
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Tue Jul 30 20:08:16 2019 +0800
+
+    更新Gms包： gmsversion=9_201907
+
+commit c330b0fed21e37bbd5c294a6b7c2a89e235587a9
+Author: 张涌 <zhangyong@joyargroup.com>
+Date:   Thu Jul 4 15:01:43 2019 +0800
+
+    gms version:ro.com.google.gmsversion=9_201906
+
+commit fb8dc26a864d54bb8393bea3a4a34175865dcc86
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Fri May 17 10:24:47 2019 +0800
+
+    gms version:ro.com.google.gmsversion=9_201905
+
+commit 1f4d5abb75479b423fde43e694147793271cb3b5
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Fri Oct 25 11:38:41 2019 +0800
+
+    更新fingerprint
+    更新base_os:onn/ONA19TB002/ONA19TB002:9/PPR1.180610.011/1571299566:user/release-keys
+
+commit 888c08d1367ca5a684e86a695dffa67cacb747a4
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Oct 19 10:07:48 2019 +0800
+
+    解决横竖屏旋转黑屏问题
+
+commit a6375e1347ff12ad96c9cc137431f62cb732cdd3
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Oct 19 10:04:27 2019 +0800
+
+    更新fingerprint
+    更新ro.build.version.base_os
+
+commit f86b9038b6424c7b5c7c58b2ad81f029845420a9
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Oct 19 10:02:24 2019 +0800
+
+    更新apk
+
+commit 73cc08e8906429ccea27b7175a0aca801b2e801f
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sun Sep 29 16:16:33 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.155
+
+commit a2769553a83ca5afb575b2dbab934d963ec1a091
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Sep 2 19:54:45 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.144.1
+
+commit 5f4ac178029e710d9db08a6ebea429c3bc618f64
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Thu Sep 5 16:47:19 2019 +0800
+
+    更新fingerprint ID
+
+commit 6ab551897b25eef0d90d8dc5dbc5b910b0400112
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Jul 5 18:54:52 2019 +0800
+
+    DDR: C732I&C806I add SUTJ9A7ZZ5D7DKFRL_PA076_PA077  EMI_CLK=1333
+    
+    Conflicts:
+    	vendor/mediatek/proprietary/bootable/bootloader/preloader/tools/emigen/MT8163/MemoryDeviceList_MT8163.xls
+
+commit db7d145584343487d3babbd06d6b77e2178c79d7
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jun 18 11:27:38 2019 +0800
+
+    固定EMMC大小16GB
+
+commit ef22bc4d2e25a5423492e535b428796aa9fe4c63
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Mon Aug 19 18:20:16 2019 +0800
+
+    Revert "第一次开机清除SystemUI缓存:OTA升级更换壁纸"
+    
+    This reverts commit d3e0031fb676295c89ce198bbec615cc1258c6f6.
+
+commit e6708a05c094e199f431eedfacf44c68a5643eec
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Aug 5 16:13:55 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.134
+
+commit 31c70b5c36d69b6b8e004dacd43396d5838fb521
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Tue Jul 2 14:27:26 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.121
+
+commit 68a3f0f0a9e64ac9452aa3f0b9bae901fb00803b
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jun 19 11:45:19 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.115
+
+commit 7ec9e3cd45c2d9a37263e655fb1f645a86e08b1d
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Jun 1 11:36:50 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.111
+
+commit 3bdb259c76711a11b693cd33411021a215af588f
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed May 22 22:23:03 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.104
+
+commit 3c65cb4bda98f3b70a1f6b947accd6845f2bbb12
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon May 20 14:23:01 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.95
+
+commit 86b672afa1ac036a9740e66b2c9890fc690269e6
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Apr 10 19:19:55 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.84
+
+commit 740e13a73b4292aefca0aa91ad9822fe307e57ad
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu May 16 13:50:33 2019 +0800
+
+    Release Version:ONA19TB002_20190516
+
+commit 603dd093ac450c016b2769e6b1f148afb90238ca
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 15 15:35:35 2019 +0800
+
+    Release Version:ONA19TB002_20190515
+
+commit bcbb1240659cb75ea0d3fb0ad61aaf5381708853
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 15 15:15:29 2019 +0800
+
+    1.CTS Verifier Fail:Camera ITS Test: Camera 1, Scene 0
+    2.更改前后摄FOV值
+
+commit 0a05dac318cfcd8151e982df304a6651fa636398
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri May 10 21:26:24 2019 +0800
+
+    Release Version:ONA19TB002_20190510
+
+commit c7e46fcb625f9760e006e6997fd018ee2ab0f426
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri May 10 18:44:04 2019 +0800
+
+    固定BUILD_FINGERPRINT时间戳：1557484106
+
+commit c37cb2851bbb59d1832335286cd48beaeaba6cc7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri May 10 16:03:56 2019 +0800
+
+    Revert "1.沃尔玛app名称显示不完整问题"
+    
+    This reverts commit 092b5a52a263fbebb55d4fadccf51a21c50e69f1.
+
+commit babf430b5b70545c3112aead6961053a6ad98ac2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 8 15:37:27 2019 +0800
+
+    Version:ONA19TB002_20190508
+
+commit 6b7359d25cd7ffe3e605d4a42655cd1f026de329
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Tue May 7 21:25:53 2019 +0800
+
+    更新DDR SMTJ96RZZ5D6JKFRL-107BT_JZ008_PA040
+
+commit 73e1a7be3c124cdd5069b5b8cf69b281fa63774e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 8 15:29:04 2019 +0800
+
+    SearchLauncherQuickStep:使用google底部搜索框
+
+commit eda3d377bcd48e0ef2116f9ed5f81c811dface83
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 8 15:22:11 2019 +0800
+
+    Revert "launcher3:searchbox移置hotseat上"
+    
+    This reverts commit 98a2f2cbef6785185e8022b8f1dee9fe6bc7eec7.
+    
+    Conflicts:
+    	vendor/mediatek/proprietary/packages/apps/Launcher3/res/values/strings.xml
+
+commit 31fba51308d12881864cecd45e217597966db4be
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 8 15:20:35 2019 +0800
+
+    Revert "GMS fail: GtsSearchHostTestCases"
+    
+    This reverts commit d98750712c6ea7b10ca0911bdea2c0f6866e6c49.
+
+commit 0e6d858475209f77741cbb01b71c9ef65df6e662
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed May 8 15:18:08 2019 +0800
+
+    Revert "launcher3:searchbox 改为彩色"
+    
+    This reverts commit 266af486e46a109570752cb82a5a877acf458c31.
+
+commit c016ff9675611e74d2a579fb19b16d93fdd7bc8a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon May 6 21:41:36 2019 +0800
+
+    Version:ONA19TB002_20190507
+
+commit d3e0031fb676295c89ce198bbec615cc1258c6f6
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon May 6 21:41:20 2019 +0800
+
+    第一次开机清除SystemUI缓存:OTA升级更换壁纸
+
+commit e8857f48bc49a09c8d6c5e5063df9594510ae069
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon May 6 18:31:46 2019 +0800
+
+    Revert to ONA19TB002_20190505
+
+commit 72f18213b5709e5cf86d74579185868ccb6f2fc6
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon May 6 16:32:56 2019 +0800
+
+    Version:ONA19TB002_20190303
+
+commit 9b6d7c5963f5c02cff14d91094c9c7fa36990e6a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon May 6 16:20:09 2019 +0800
+
+    pl:DDR更新到最新
+
+commit f4f9eab3ca14bf437b9a71b68caa64f2a9b4e7ed
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun May 5 14:20:07 2019 +0800
+
+    Version:ONA19TB002_20190302
+
+commit 49429fb22fb46632f5e9f180e6991ea9c2db0fc0
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Apr 23 13:44:49 2019 +0800
+
+    播放音乐过程中插入四段耳机概率性暂停问题
+
+commit 026b99f5801bdbd1d0d5f1b52be736015453aca1
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 23 14:32:25 2019 +0800
+
+    Revert "Fix 插入耳机概率引起音乐播放暂停的问题"
+    
+    This reverts commit 1985db7a9eb15353a45d2ad3743cbe69822d3ed5.
+
+commit d194114e437a16fef5f0b3c2b82d396bc9258968
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Mar 20 11:27:56 2019 +0800
+
+    解决第三方apk摄像头暗问题
+
+commit 9256e172373be14461b18a548df698a64c974fb4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Mar 14 17:50:18 2019 +0800
+
+    Revert "Camera2385:1600*1220显示2MP"
+    
+    This reverts commit 793dd676a8fe4d063f286ccc7ea7ff6ea4da4888.
+
+commit 7b15bfa44bcd59d6c730e66a77d0ed1fb190e091
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun May 5 14:09:01 2019 +0800
+
+    Revert to ONA19TB002_20190228
+
+commit 484043d81743dbe407f061740a72dfddf70fd7f0
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun May 5 11:23:07 2019 +0800
+
+    Version:ONA19TB002_20190505
+
+commit 8f21584bfe4acdbd73b067ee6aa7b1766f75395d
+Author: tongjun <tongjun@joyargroup.com>
+Date:   Sun May 5 10:49:19 2019 +0800
+
+    MT8163:增加新兼容DDR物料 H9TQ17ABJTCCURKUM_B22A_2G16G_Rev TFPCB3SAANBD_814
+    
+    Conflicts:
+    	vendor/mediatek/proprietary/bootable/bootloader/preloader/tools/emigen/MT8163/MemoryDeviceList_MT8163.xls
+
+commit 73f153fd5eb6cd9f329c7cab3982953bcf0cd6e0
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 30 14:26:52 2019 +0800
+
+    Version:ONA19TB002_20190430
+
+commit 266af486e46a109570752cb82a5a877acf458c31
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 30 14:26:29 2019 +0800
+
+    launcher3:searchbox 改为彩色
+
+commit 9c05acb87c58ae22651f5fde5e1373e75b522692
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 30 10:05:34 2019 +0800
+
+    GTS fail
+    GtsPermissionTestCases
+    com.google.android.permission.gts.DefaultPermissionGrantPolicyTest#testDefaultGrantsWithRemoteExceptions
+
+commit b10042e5deaade13a75460a651b643c9aea08c92
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 30 09:59:26 2019 +0800
+
+    GTS fail
+    GtsAssistantHostTestCases
+    com.google.android.assistant.gts.AssistantTest#testAssistantOpenFrontCamera
+    com.google.android.assistant.gts.AssistantTest#testAssistantTakeSelfieWithoutVoiceInteraction
+
+commit 40852fdd56310559b9135f50d6b197799905ed0e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Apr 29 16:09:01 2019 +0800
+
+    Version:ONA19TB002_20190429
+
+commit 8233f15bdbebea33e9fc4821125ece9b26d689ca
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Apr 29 16:08:16 2019 +0800
+
+    虚拟按键栏显示错位
+
+commit b80f5e36dc8ec29bfa1f612fda37f592d17098f6
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Apr 29 15:53:27 2019 +0800
+
+    GTS FAIL:For_joya_sz_p0mp6_alps-mp-p0.mp6-V1.78_TMP1 ALPS04379764
+    GtsNotificationTestCases
+    com.google.android.app.notification.gts.NotificationManagerTest#testGetChannelGroups
+    GtsMediaTestCases
+    com.google.android.media.gts.MediaDrmTest#testUsageTableCapacity
+    (run gts -m GtsMediaTestCases --test com.google.android.media.gts.MediaDrmTest
+      --module-arg "GtsMediaTestCases:test-timeout:3600000")
+
+commit 531ba29f62193b366e2195948e23f7e6692e5188
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 23 14:36:49 2019 +0800
+
+    Version:ONA19TB002_20190423
+
+commit d09fadad8404b5552a8f6b18497ef86b08b92b92
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Apr 23 13:46:04 2019 +0800
+
+    camera2去除闪光灯图标
+
+commit d9edd00e9abf20daab14db4076a39d710777c51a
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Apr 23 13:44:49 2019 +0800
+
+    播放音乐过程中插入四段耳机概率性暂停问题
+
+commit 0830cd6b5493460b55de90e1a080e4972d231034
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Apr 23 14:32:25 2019 +0800
+
+    Revert "Fix 插入耳机概率引起音乐播放暂停的问题"
+    
+    This reverts commit 1985db7a9eb15353a45d2ad3743cbe69822d3ed5.
+
+commit ffd04613eeda32cf67baa5e720a191ad39cb440d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Apr 20 11:57:11 2019 +0800
+
+    解决低电状态恢复出厂设置卡logo问题
+
+commit 9a2c49ca7cc1cf7cdff21a0b2ab6a4f9d86383db
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Apr 15 17:07:21 2019 +0800
+
+    沃尔玛app名称显示不完整问题
+
+commit 2ededc51bf510f8c157f76ad04a42e6df0038d99
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Apr 15 12:03:26 2019 +0800
+
+    ro.qq.camera.sensor 3 && Version:ONA19TB002_20190415
+
+commit 092b5a52a263fbebb55d4fadccf51a21c50e69f1
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Apr 12 11:13:44 2019 +0800
+
+    1.沃尔玛app名称显示不完整问题
+    2.导航栏沃尔玛火花图标替换
+    
+    Conflicts:
+    	packages/apps/CustomApp/priv-app/Sbm.apk
+
+commit e9923c9b1a23b97b21ba1f7421de05296601cdd8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Apr 4 16:04:26 2019 +0800
+
+    Version:ONA19TB002_20190403
+
+commit 2c9ff63c59fb98e070beda60783e3abdde1e2c32
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Apr 4 09:27:04 2019 +0800
+
+    gms version:ro.com.google.gmsversion=9_201903
+
+commit 58cfd75170f2e102f0ef394b08a964ed469f23ab
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Apr 3 12:00:34 2019 +0800
+
+    GSI fail:
+    CtsCameraTestCases
+    android.hardware.cts.CameraTest#testJpegExif
+    android.hardware.cts.CameraTest#testVideoSnapshot
+
+commit 355b863317caf2216ea91d252fe73c279f16603a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Mar 29 17:10:29 2019 +0800
+
+    Revert "第三方应用在虚拟按键栏的菜单图标位置显示错位问题"
+    
+    This reverts commit bb78973a175d241bd1d0bb0d675491861ec628d8.
+
+commit 07d461646aab23c01ef5aab9cc6eb23eadcfa882
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Mar 27 09:26:41 2019 +0800
+
+    Version:ONA19TB002_20190326
+
+commit 667979284f5b7b9c2250218e8be5047367e722f2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Mar 27 09:25:22 2019 +0800
+
+    固定FINGERPRINT:1553595219
+
+commit 557e6dcc19c2241c7362dc6e615f7cfa968c7f5e
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Mar 25 17:13:24 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.78
+
+commit 772519182d658377e50bc26b031485087c548ccf
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Mar 25 15:34:15 2019 +0800
+
+    Version:ONA19TB002_20190325
+
+commit 95f7748fad230e0672ff11738e3fe3b232d0767c
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Mar 25 15:33:16 2019 +0800
+
+    更换壁纸
+
+commit 4bcc1584b7aa4c09ddedec8b46401a4a87525569
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Mar 25 15:06:05 2019 +0800
+
+    G-sensor: Mir3d use accel.bma.orientation
+
+commit 458102375c1d898f2f18d9818080bb0f5c96d082
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Mar 21 11:54:14 2019 +0800
+
+    更细DDR信息，增加新物料
+
+commit 644380526896c4ee801864c906d923e226ce7da3
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Mar 19 09:53:34 2019 +0800
+
+    解决相机录像无法使用耳机录音问题
+
+commit 174f039913c1649daaf84d01906e4318c219a0b8
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Mar 16 18:03:38 2019 +0800
+
+     Items:(MT8167)
+            uart.printk
+
+commit 43ca5e337e1decfded5d331f1a84e8b47e34d5ae
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Mar 20 11:27:56 2019 +0800
+
+    解决第三方apk摄像头暗问题
+
+commit 371d6bed93e84e02ea30f5463c5f4cc0e1fac093
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Mar 18 10:11:29 2019 +0800
+
+    更新DDR表，去除无料DDR，调整DDR时序
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/mid/C732I/custom_MemoryDevice.h
+
+commit 90a840727e30acc75369594b23b40c346c6a0eb7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Mar 15 18:25:40 2019 +0800
+
+    Version:ONA19TB002_20190316
+
+commit 8cd01d258b13ca1cf2d7ba15cac24abe0f0b67db
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Mar 15 16:48:03 2019 +0800
+
+    更新DDR物料表
+
+commit 75a372597989de42fef52aaddaba4094fec33f6e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Mar 15 11:56:21 2019 +0800
+
+    Version:ONA19TB002_20190315
+
+commit f62852e6895eb2d8cdab3fab9851d3dd2312c448
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Mar 13 10:02:51 2019 +0800
+
+    去除settings急救信息选项
+
+commit bb78973a175d241bd1d0bb0d675491861ec628d8
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Mar 13 10:01:05 2019 +0800
+
+    第三方应用在虚拟按键栏的菜单图标位置显示错位问题
+
+commit 6dfe1299b366d1ab1a1309736fb2a31f33c1cc63
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Mar 13 10:04:13 2019 +0800
+
+    factory mode 与recovery mode 时防止电池过放
+
+commit 0ea205b7b2c3117330e36288dfe1117ea718703f
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Tue Mar 12 18:45:30 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.72
+
+commit 88e3e757a1837f3baa4069ae91dcdc319448a8e4
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Feb 23 15:42:02 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.66
+
+commit 0f8b8631c37e86b82d908c9e56c4ef744c82a07a
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Feb 23 11:46:59 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.51
+
+commit e46807a185a6da796906df798ce3ee9191f930b2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Mar 14 17:50:18 2019 +0800
+
+    Revert "Camera2385:1600*1220显示2MP"
+    
+    This reverts commit 793dd676a8fe4d063f286ccc7ea7ff6ea4da4888.
+
+commit dd20a54df44c22ca6dc13db33c3c7e2378cc806e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Mar 8 18:13:05 2019 +0800
+
+    Version:ONA19TB002_20190308
+
+commit c1bd7f343dcfb733ad7d03578321f2020f86c92b
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Mar 5 20:17:27 2019 +0800
+
+    外接OTG下拉状态栏提示“Android system*charging connected device via USB”
+
+commit 19e1d855962bdfd674c0099bb5af026f793779d1
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Mar 8 11:10:52 2019 +0800
+
+    更新DDR兼容信息2+16
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/mid/C716I/custom_MemoryDevice.h
+    	device/mediateksample/tb8163p3_64_bsp/mid/C732I_101/custom_MemoryDevice.h
+
+commit 8ef68e8492248faf0bd51626442ba8c13ed66e96
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Mar 7 17:03:23 2019 +0800
+
+    MtkLauncher3:解决主界面上应用拖动至文件夹不易操作问题
+
+commit 6cd2958853936fec53e7363e2f45842295122d83
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 28 15:00:56 2019 +0800
+
+    Version:ONA19TB002_20190228
+
+commit 3aab309de539ea7e11a8eccbe8d76dbd8f52ac18
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Feb 28 10:20:59 2019 +0800
+
+    Factory: ATA test init
+
+commit 2aa67853d719713b5e8d494fc1f684e3d2504c03
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 28 09:53:02 2019 +0800
+
+    Revert "电量%1时过五分钟自动关机"
+    
+    This reverts commit 06685a61f5535010fcd781bb739e772f2e4ce2e0.
+
+commit da46bd11cb8c447363c37ea385fc8965c90c29d4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Feb 27 11:48:17 2019 +0800
+
+    Version:ONA19TB002_20190227
+
+commit 5115af07b570daa517e1066969626d23a725fbbb
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Feb 27 11:47:52 2019 +0800
+
+    固定FINGERPRINT:1551232410
+
+commit c8d9fe4b7388b0890469eef6c0fa030c2d4fd7ad
+Author: zhengqf <zhengqf@joyargroup.com>
+Date:   Tue Feb 26 16:20:29 2019 +0800
+
+    Bluetooth: BQB 认证补丁
+
+commit 69e3fd14a72110aab9277691d184083a9174831b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Feb 27 09:46:45 2019 +0800
+
+    Revert "移除BQB认证多余的profiles"
+    
+    This reverts commit cc4aece18c8a01136bb4deb1549bdc5ed9524329.
+
+commit 68eeb29aa4bb40e35cb0dab7a260a8723300ac60
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Feb 27 09:42:06 2019 +0800
+
+    Launcher: 解决有时候点击home键无法回到桌面的问题1
+
+commit 36480cd68c716ee2a2c26808a5a15098da7db361
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Feb 18 13:46:32 2019 +0800
+
+    FactoryMode:add MultitouchTest
+
+commit 06685a61f5535010fcd781bb739e772f2e4ce2e0
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Feb 20 15:37:10 2019 +0800
+
+    电量%1时过五分钟自动关机
+
+commit 909bde6a25f3e0ee7b909cb77769039cf279d788
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Feb 25 18:36:47 2019 +0800
+
+    Version:ONA19TB002_20190225
+
+commit f60b8f409e654c827f73a982b0235114b0aa8e27
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Feb 20 17:34:40 2019 +0800
+
+    修改T卡格式化操作导致点击下拉菜单栏的通知消息后setting报错问题
+
+commit 8e10410e7afcd8b02ab69b72805727319895400e
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Feb 20 14:46:57 2019 +0800
+
+    优化蓝牙抗干扰能力
+
+commit 033e2641da2877f088dc168d9abbce07cb23801f
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Feb 25 11:36:35 2019 +0800
+
+    芯导5425A：电池高温到55°，充电电流限制为100mA以内
+
+commit b9c1355bfe14262674b7c2ba08e37be6e33cb54b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 23 17:34:31 2019 +0800
+
+    Version:ONA19TB002_20190223
+
+commit 40894a7a5fc98c551a5ccb15915105eb03294ecd
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 23 17:34:02 2019 +0800
+
+    固定1550913871
+
+commit 5f5a7d55cd6125bccf0347f9d86683405dda03b8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 23 16:18:54 2019 +0800
+
+    修改 第三方检测显示的电池容量不正 确 4000 ->3500
+
+commit ccf49a325c25bb054f02b777d5a00cd80b280e05
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 23 13:59:56 2019 +0800
+
+    电池曲线:标压电池
+
+commit 3c139f2b76a3828ac19e256d4a6c760e7bfb1ee8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 22 22:17:42 2019 +0800
+
+    GMS:CTS fail:CtsMediaTestCases
+    android.media.cts.CamcorderProfileTest#testGetWithId
+    android.media.cts.CamcorderProfileTest#testGet
+    media_profiles.xml
+
+commit c6993a5d24e93009e87d54869f07711f6b3e3814
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 22 11:44:07 2019 +0800
+
+    Version:ONA19TB002_20190222
+
+commit d25b2a2b960ed7372837b26f8685766f04776610
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 22 11:42:01 2019 +0800
+
+    更新VuduV.apk
+
+commit 56c9909c41604b87b6a150f121d2afebc5f61f8e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 22 11:41:43 2019 +0800
+
+    User 版本屏蔽掉应用崩溃的对话框
+
+commit 793dd676a8fe4d063f286ccc7ea7ff6ea4da4888
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 22 11:31:46 2019 +0800
+
+    Camera2385:1600*1220显示2MP
+
+commit d787e5d7a11aa963ded419ed5190c5f457e8bcd6
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Feb 21 10:08:25 2019 +0800
+
+    1.antutu前摄像素大小显示不对
+    2.改变相机模式图标左边距
+
+commit 1ef9a78b9e4be4957b54414e2fe06ff411390cac
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 21 14:50:47 2019 +0800
+
+    Revert "安兔兔gc030asub_mipi_raw"
+    
+    This reverts commit e225c0ab376a2c499264cc8f3cb9dd763331979c.
+
+commit d7b65106f863663de9a0f11534c6616b51ff5a8f
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Feb 19 15:30:13 2019 +0800
+
+    放大camera2前后摄切换图标
+
+commit f13ae673f5e5bb87515d1d6914065b8da2c56e87
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 21 14:43:34 2019 +0800
+
+    Revert "Wifi:2.4G_ht40"
+    
+    This reverts commit c6b1c28abd9012cf92d23e31a74f21ebed2ead8f.
+
+commit 129a9891d97556ab9d1dde8fa71d0bb05656f32e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 21 14:42:43 2019 +0800
+
+    Revert "Wifi:2.4G_ht40"
+    
+    This reverts commit 54626d23a1df47cdab59cfd19ab706265fe5b7f0.
+
+commit eeb2900d170b6530a5b5536981f1070a538b7ef7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 21 14:42:11 2019 +0800
+
+    Revert "Wifi:2.4G_ht40"
+    
+    This reverts commit 876b74e82f0d16edb6eb00932f4529dd80878009.
+
+commit ea528f8a635582d8aa9314379125ba5c20b76c75
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 21 14:35:53 2019 +0800
+
+    GMS:cts fail:CtsIntentSignatureTestCases
+    android.signature.cts.intent.IntentTest#shouldNotFindUnexpectedIntents
+    更新VuduV.apk
+
+commit 9f055fd6e97919a7a99eb1ca26db6aa0c49f2d8c
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 15:24:31 2019 +0800
+
+    Version:ONA19TB002_20190219
+
+commit e225c0ab376a2c499264cc8f3cb9dd763331979c
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 15:23:59 2019 +0800
+
+    安兔兔gc030asub_mipi_raw
+
+commit b2834f5163d93883fbb71dd0b43e57113af7c8d3
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 15:14:14 2019 +0800
+
+    解决MAC地址丢失
+
+commit cd48e9dee6efe3bc9eedcb0eac8af7e839b707a4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 14:39:06 2019 +0800
+
+    更换FINGERPRINT 1
+
+commit b54a2729e4b3c2317cd742df50f8625a98cb174f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 10:21:09 2019 +0800
+
+    音频:降低MIC灵敏度
+
+commit 516b47ca321b8dde641a69a60b09382dde8da6db
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Tue Feb 19 09:18:50 2019 +0800
+
+    cts:解决修复摄像头CTS问题引起的手动测试项FOV失败项
+
+commit a3a0d7e69811e7235b02d5c72686b98217d2b4eb
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 19 09:08:04 2019 +0800
+
+    更换FINGERPRINT
+
+commit bf04190e8f919397e8a00bf265cc02bca9cafdc4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Feb 18 18:35:43 2019 +0800
+
+    Version:ONA19TB002_20190218
+
+commit c1973883a0c772f559247ef496e99d5cfa59833b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Feb 18 18:27:38 2019 +0800
+
+    解决安兔兔错误显示030A摄像头像素为1.9MP，实际为0.3M
+
+commit c644afaccfa2fea75c1d041085560204d73de30d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Feb 18 18:07:53 2019 +0800
+
+    wlan直连匹配名称:ONA19TB002
+
+commit d1fee6a43494a1669a892d49c85b6d39a7a56fbd
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Feb 18 14:44:56 2019 +0800
+
+    1.wlan直连匹配名称不对问题
+    2.认证选项增加图标
+
+commit a719d31b555e835913efe30e95256c253813e758
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Sun Feb 17 14:35:39 2019 +0800
+
+    Wifi 信号显示增加一格
+
+commit 8e1995af1927ead070f44a76ea1573597096cce8
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Feb 16 17:13:47 2019 +0800
+
+    补充修复OTG鼠标上滑解锁锁屏困难问题
+
+commit 11e3c9b269f1846d4257c829617dc43963e509e0
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 16 15:45:51 2019 +0800
+
+    Version:ONA19TB002_20190216
+
+commit b4cb10fa6ff83643fe7c631326949e1abd234c19
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 16 17:04:22 2019 +0800
+
+    OP01SoundRecorder 录音音质 高
+
+commit 789c6e59418cf76fadc7624211e7691d801b7d6e
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sat Feb 16 16:50:24 2019 +0800
+
+    设置-系统-平板电脑-急救信息中phone-->device
+
+commit 2448d549f2a511c164bc998af9f819a04397a4b5
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 16 16:38:21 2019 +0800
+
+    MtkSettings: fix Settings-无障碍-放大功能
+
+commit 667cef64eba3c4173acd51eb0c30339ba0b33ced
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Feb 15 20:41:09 2019 +0800
+
+    更改认证信息
+
+commit 75f5fe3e82e27fb32b7a3bf2f383fe9800c5ffc9
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Feb 15 14:20:39 2019 +0800
+
+    新增location和night到下拉菜单快捷方式中
+    
+    Conflicts:
+    	vendor/mediatek/proprietary/packages/apps/SystemUI/res/values/config.xml
+
+commit 2bd95f1da22c55b1493305405aca3c8f77e739c9
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Feb 16 15:38:32 2019 +0800
+
+    禁止Camera中模式图标旋转
+
+commit 73f567780a63ae55f9bfa8d827456ae22ec2110a
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Feb 15 10:54:55 2019 +0800
+
+    更新认证信息
+
+commit 2de6fed2e659db9cad2142319097726e5063d46c
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Feb 13 18:32:02 2019 +0800
+
+    去除下拉菜单编辑下的流量节省按钮图标
+    
+    Conflicts:
+    	vendor/mediatek/proprietary/packages/apps/SystemUI/res/values/config.xml
+
+commit 62f2e3ba063d85650b8032067656768c8963f3b5
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Feb 13 18:27:52 2019 +0800
+
+    解决camera前后摄切换不灵敏问题
+
+commit 0a02bbff9dbcaed2ddaedeb190ccadf289c3b0dc
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Feb 13 17:24:13 2019 +0800
+
+    取消WLAN 偏好设置折叠选项
+
+commit 1985db7a9eb15353a45d2ad3743cbe69822d3ed5
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Feb 15 18:09:20 2019 +0800
+
+    Fix 插入耳机概率引起音乐播放暂停的问题
+
+commit 2233bcc50bea02e7846cbdcc6a498710f6ee42ea
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Feb 13 15:35:49 2019 +0800
+
+    修改 第三方检测显示的电池容量不正确 1000 ->4000
+
+commit 94f5a1f76a5fd08570e2f69e3c1ff9bd185793d8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 15 18:15:44 2019 +0800
+
+    Revert "Launcher: 解决有时候点击home键无法回到桌面的问题"
+    
+    This reverts commit b5cd91bf4e9fa88e67e6a002526c608c6ec3a6d7.
+    
+    解决GMS cts fail:CtsAppTestCases
+    android.app.cts.ActivityManagerProcessStateTest#testCantSaveStateLaunchAndSwitch
+
+commit 8737f6aa7126ee3daf592ab61103a43db05c6379
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 15 10:48:40 2019 +0800
+
+    Version:ONA19TB002_20190215
+
+commit b74bf54cfb45f02834e586b96991fd68885bcc80
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Feb 14 17:51:50 2019 +0800
+
+    解决CTS摄像头FAIL项
+
+commit 03e75570ae97bbf7b3fc0dd8f3fc407d554ee584
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Feb 15 10:44:11 2019 +0800
+
+    GMS:VTS:VtsKernelNetTest VtsKernelNetTest#testKernelNetworking
+
+commit c8c51e4b86cb66223210a9af031697f4e8348542
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Feb 12 15:37:03 2019 +0800
+
+    蓝牙耳机增加音量至70%时,显示提示信息
+
+commit b136e5a1c1eb6fdda8a8ce2ad2f620469bc3002b
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Feb 11 18:28:08 2019 +0800
+
+    settings:add Certification Information item
+
+commit 49abef1c15c5df62b2eda484fae8542c3905496f
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Feb 11 17:36:13 2019 +0800
+
+    在更改设置-系统-关于平板电脑-设备名称中弹出警示“手机”改成“设备”
+
+commit e90168158c2e8b4f91f3439390eda0907e8f5561
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Feb 11 17:18:11 2019 +0800
+
+    BuildTools:(MT8163)
+        buildprop:  MID_PROJECT/vendor_system > vendor/build.prop
+
+commit 7955ab25e653198e2b76d9871e27777b4d93edb8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 28 09:29:50 2019 +0800
+
+    Version:ONA19TB002_20190128
+
+commit 876b74e82f0d16edb6eb00932f4529dd80878009
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 28 09:28:06 2019 +0800
+
+    Wifi:2.4G_ht40
+
+commit a3d9741ea99570fcfe538eb6185be7dd668e614d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 26 17:48:37 2019 +0800
+
+    Version:ONA19TB002_20190126
+
+commit 54626d23a1df47cdab59cfd19ab706265fe5b7f0
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 26 17:47:08 2019 +0800
+
+    Wifi:2.4G_ht40
+
+commit 3da462552e81b52aec13575db4b302646a4f8eed
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 26 14:08:50 2019 +0800
+
+    GMS:Camera1 gc2375hmipi_raw gc033amipi_raw
+
+commit 65ea9a95e847580fa19286cac9b845a7a2879542
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 26 09:34:35 2019 +0800
+
+    GMS:去掉android.software.live_wallpaper.xml
+
+commit 3bf5b0178e9e2311f526209d26e1999ddf5dbf2d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 25 16:16:35 2019 +0800
+
+    Version:ONA19TB002_20190125
+
+commit cf655dd346a293895c4caa47eb91f993f4041954
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 25 15:08:09 2019 +0800
+
+    settings:hide advanced
+
+commit f04f1e2bb238491d4e236afb77bd5e1f8436929a
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 24 16:47:45 2019 +0800
+
+    去除设置“接收电话”字眼
+
+commit c2ee3eef0480a0a5e73fa834d465611fed415c2f
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 24 16:41:32 2019 +0800
+
+    OP01SoundRecorder:增加音质选项菜单
+
+commit 017aaa92b3152f7b0304a3f9d011ce4ff29b1ad4
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 23 18:39:15 2019 +0800
+
+    1.去除小部件
+    2.访客模式下导航栏*号按钮无法启动apk问题
+
+commit cc4aece18c8a01136bb4deb1549bdc5ed9524329
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jan 22 11:05:01 2019 +0800
+
+    移除BQB认证多余的profiles
+
+commit a7168b7bc3a6ded7dcc15f47dcef6f31025ba527
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sun Jan 20 17:03:09 2019 +0800
+
+    删除点击通知音量图标时中的来电提示字眼
+
+commit c6b1c28abd9012cf92d23e31a74f21ebed2ead8f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 25 15:45:01 2019 +0800
+
+    Wifi:2.4G_ht40
+
+commit 8527acf7ee801d688f1c3f92a43a828c314885bf
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 24 21:37:33 2019 +0800
+
+    Version:ONA19TB002_20190124
+
+commit 2501caff6105aa5d5f0e1c5077070bf98c309118
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 24 21:35:27 2019 +0800
+
+    GMS:Camera1 gc2375hmipi_raw gc033amipi_raw
+
+commit a38d44edf0a08df03c678f2450b34f0e655d2285
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 24 14:35:29 2019 +0800
+
+    GMS:Camera gc2375hmipi_raw gc033amipi_raw
+
+commit 8eb7b62ccce4b055b3805c7583af1db9f7f62e08
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 24 11:27:44 2019 +0800
+
+    SystemUI:解决更换壁纸瞬间半屏显示问题
+
+commit 2fb6524f2ee21f3177f5ebd3ecc8073feea815f2
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 23 14:58:53 2019 +0800
+
+    解决按home键进入google搜索界面导航栏按钮不明显问题
+
+commit b6a5b29efcd6f421b8d39d96a223866b4d8beb4b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 23 16:31:21 2019 +0800
+
+    GMS:摄像头方向
+
+commit 311d4af019c5dad16f87e468636fa52e27e89631
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 23 09:48:51 2019 +0800
+
+    更换动画bootanimation
+
+commit d00f7ac51cdf6a6f3767ae93751a12a0aa3f4b36
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 22 14:52:22 2019 +0800
+
+    Camera方向:gc033amipi_raw gc2375hmipi_raw
+
+commit ae8fe62d54ff05b73522adf0d573eb5dacd84d7c
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 22 09:57:30 2019 +0800
+
+    更换1Sbm.apk
+
+commit 361a14a5bc857087aec16ae7036890504672fb29
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 21:00:16 2019 +0800
+
+    Version:ONA19TB002_20190122
+
+commit 1693e6dcb2dfe1613cf5d01db10ed7ed93f93965
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 20:58:41 2019 +0800
+
+    更换Sbm.apk
+
+commit 00d0ebaee377bfaea852c1492af8e6c26e6c0ac7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 20:57:51 2019 +0800
+
+    电池曲线:NTC
+
+commit 4038f4dfb1f3eb35d46ca7c81217d2c0b3674e0f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 20:27:39 2019 +0800
+
+    Revert "WallpaperPicker: add more wallpaper"
+    
+    This reverts commit 4aaa482d1ca8e5956831cd574d7b3efac613ec81.
+
+commit 6376c97ee9b0d47063111751dca9853e0bd0d235
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 20:24:45 2019 +0800
+
+    去掉动态壁纸
+
+commit 95e1dcc341add3968c9e5a41c9f2bcd781ed462c
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 15:13:14 2019 +0800
+
+    Version:ONA19TB002_20190121
+
+commit b3c96a381d5606afb7e1077fac222d0f85e27ba4
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 18 13:13:54 2019 +0800
+
+    竖屏壁纸不居中问题
+
+commit 04610d586aa18bef744e70dfa661698753baeed1
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 11:58:14 2019 +0800
+
+    Revert "8寸壁纸居中"
+    
+    This reverts commit 2f9c5df370c9a823de37871b9d87aa2e051546ce.
+
+commit 075de677c789d128717bb0ef3c05099195a80269
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 21 10:30:07 2019 +0800
+
+    优化c732i 10寸TP参数
+
+commit ad6b02574e5766c64f31e43ce8b4fd702c1da621
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 21 10:24:07 2019 +0800
+
+    增加后摄GC2375H
+
+commit d139d85d23e42ab97b95e301e087fee1b110ebfd
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 21 09:41:39 2019 +0800
+
+    修复 喇叭概率出现无声音或者噪音的问题
+
+commit 3609e7fa4977772e3b008cd7e165ace0aea926d7
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Jan 18 11:03:01 2019 +0800
+
+    增加前摄GC033A hal 层缺少代码
+
+commit b071df4a8c149c316a076ca835323ddb1e844864
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 11:18:43 2019 +0800
+
+    更换壁纸
+
+commit ed7be516b37e2b3d1e5170f2d6163b2f4e328aee
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 21 10:42:35 2019 +0800
+
+    电池曲线1
+
+commit 8421621ad694bbb31c08dfd0d5aeac0c9087252b
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 17 18:56:25 2019 +0800
+
+    通知音量进度条为0图标不对问题
+
+commit 56bd8c2748101c2918b49b2ffa50161c39c9888f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 18 15:20:56 2019 +0800
+
+    GMS:camera 方向
+
+commit b9e6dd405ccde14daefe7df3b3300ea07d5aa06b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 18:30:35 2019 +0800
+
+    Version:ONA19TB002_20190118
+
+commit bb04f2f4df14020559b8cea75b1ba34c881c0813
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Jan 17 18:04:27 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.44.1
+    
+    Conflicts:
+    	build/make/target/product/core.mk
+    	device/mediatek/mt8167/device.mk
+
+commit 596f29717169a975ad0f36cc8fc45ca99e959e89
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 18:17:14 2019 +0800
+
+    去掉下拉菜单投射功能
+    去掉设置-HDMI选项
+
+commit 4a744439b042d39aa47fa65423c6899dd999f3a1
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 17:32:57 2019 +0800
+
+    SystemUI: 解决打开TP距感触摸在锁屏界面断线的bug
+
+commit 8444e6a89282ec16f0263bd5108f5e3b8961ad6d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 15:38:19 2019 +0800
+
+    Version:ONA19TB002_20190117_gmstest
+
+commit fea1a689ad29e43c5690905dc797fe2b8278a5da
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 14:09:22 2019 +0800
+
+    加上HDMI
+
+commit 52bd6cee0c73c6e8b85768d0d6359412ad11e305
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Jan 16 20:16:33 2019 +0800
+
+    优化喇叭底噪问题
+
+commit f878b26443e9e970fec3b264a246e44a78819c36
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 17 10:40:57 2019 +0800
+
+    factorymode:add T card test;remove Vibrator、Lsensor、Psensor、EARphone
+
+commit 936a144e5df52c57a7946cd9d1c7559a0926f192
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 15:19:43 2019 +0800
+
+    去掉主屏幕显示小部件:Protips
+
+commit 143c8b44e32bb7e651409a51318a19c589548db0
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 14:43:43 2019 +0800
+
+    NTC:充电时,当NTC >=60 或者 NTC <=-10,关机;当NTC >=55 或者 NTC <=0,断电报警
+
+commit 424d3655ae8a6401d692b02dc2cab8c194afeb89
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 11:31:03 2019 +0800
+
+    Version:ONA19TB002_20190117
+
+commit 40a53669db9fc56f23e387572cfbc743d6aab35f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 11:09:28 2019 +0800
+
+    更改桌面布局
+
+commit 19ddfd234ccb65af2e0206f55011655aa13ed8b6
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 16 19:10:51 2019 +0800
+
+    删除“来电”提示字眼
+
+commit 800d702f723c44bf8aa794762a1398f08cbdef3b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 17 10:29:04 2019 +0800
+
+    gms version:
+        ro.com.google.gmsversion=9_201901
+        modify the FilesGo to FilesGoogle
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/mid/gms.mk
+
+commit 51a51ca1200945c25ce2d7eb5537d2f02734ae72
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jan 15 13:21:02 2019 +0800
+
+    关闭智能省电模式并移除改选项
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/ProjectConfig.mk
+
+commit 545e1f6ccf76bfcba2b0c0229e1c4bbcf3b17c50
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 19:55:01 2019 +0800
+
+    Settings:删除设置电池管理
+
+commit 02e70377570dddd9bca6a183539912cc5b91eecb
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 16 18:16:19 2019 +0800
+
+    Charger: 修改关闭SW_Charger充9停1功能
+
+commit 1c710392383c7c34b64e0630b07903863ef8565b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 19:35:36 2019 +0800
+
+    GMS fail:GtsAppBlacklistDeviceTestCases
+    com.google.android.appblacklist.gts.GtsAppBlacklistDeviceTest#testForBlacklistedApps
+
+commit dc94199343cfeb3dadaeb170d58326534601d4e4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 14:31:45 2019 +0800
+
+    Version:ONA19TB002_20190116_gmstest
+
+commit 1fc92b90f3bcb5bdec77cb2c86ae79428627b5a2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 14:30:30 2019 +0800
+
+    GMS fail:VtsTrebleVendorVintfTest HDMI
+
+commit 3a8a2e831ad758f9d936c64900456835a9eb9699
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Wed Jan 16 11:23:13 2019 +0800
+
+     MTEE: change key type(for attestation key)
+
+commit 7ce6f5df3c67b3828008e8fb84207d9b330e586d
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Wed Jan 16 10:28:48 2019 +0800
+
+    Launcher3: 去掉首次开机桌面提示动画
+
+commit d98750712c6ea7b10ca0911bdea2c0f6866e6c49
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 14:00:33 2019 +0800
+
+    GMS fail: GtsSearchHostTestCases
+    com.google.android.search.gts.GoogleSearchWidgetTest#testWidgetPresence
+
+commit f7afd8a2189667473497bf4a26180af4d4d8d71d
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 16 10:35:04 2019 +0800
+
+    ATA: 1,修改GPS测试时间缩减到20S
+         2,修改SW Version读取失败导致后续测试失败
+
+commit 166c0daa8352ab8e5179a1811198f1940afbe9f2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 16 10:00:16 2019 +0800
+
+    Camera:gc030asub gc2385mipi
+
+commit 2440230bf3188f526d04832ed80b1b39cc30b8d2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 15 21:56:20 2019 +0800
+
+    Version:ONA19TB002_20190116
+
+commit c3140d4aa132edbdb55d6743efb5febdf70af881
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Tue Jan 15 17:49:52 2019 +0800
+
+    ATA: 修改刷机后Speaker测试失败
+
+commit d09bfd0dcd89ef666f4a37da6c8763c7b31478cc
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jan 15 15:26:17 2019 +0800
+
+    Launcher: 解决有时候点击home键无法回到桌面的问题
+
+commit 191178e93e95ffab22bbe22bd94c34fbfa840561
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Tue Jan 15 15:12:58 2019 +0800
+
+    关闭factory模式下的振动器与闪光灯测试项
+
+commit c3aaedbae8f1d2e6d2bb85d0d1d7362e1e95aff4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 15 11:08:57 2019 +0800
+
+    Version:ONA19TB002_20190115
+
+commit b3aceb1f599f5d94dcfb9322f83c31959aa85847
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 15 11:08:35 2019 +0800
+
+    修改黑色主题下桌面文件夹边框白色
+
+commit 624e309ffda1d6cbde635aeb9755a51e74ee344f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 15 11:03:17 2019 +0800
+
+    充电电流165000
+
+commit e62fd713347f11c02313ac57151c36180e8e1f28
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Jan 14 20:24:28 2019 +0800
+
+    settings:remove auto_24hour
+
+commit bcdd24300f886c6834282442d0964ab5a22b5744
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Jan 14 14:41:46 2019 +0800
+
+    Launcher3: 修改在长按app图标后弹出的shortcut显示位置不对的问题
+
+commit 6855e8372761592fcefccb20d281d2a881f778d0
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 14 18:33:42 2019 +0800
+
+    修复重启测试出现卡死无法开机的问题
+
+commit 1f7e8f59d685bf4d8b8e697f2d9e823a3e5252bd
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 14 11:01:19 2019 +0800
+
+    修复：刷机后不开机直接写号失败问题
+
+commit fd6f470c6d9bc9b347ce5d23d0124a9684243a08
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 14 18:29:08 2019 +0800
+
+    Version:ONA19TB002_20190114_gmstest
+
+commit f09f3a6ec4d1fbbf6ccea778e3eb2ea0ff70c907
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 14 18:27:36 2019 +0800
+
+    items:camera
+
+commit de349a451ceb8762009b0b92fd93a3307763b114
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 14 14:39:25 2019 +0800
+
+    MtkSettings:fix theme background settings no effect
+
+commit 2a65ef7d592b8df2f996ed55a07ce9a4ef2080e7
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Jan 12 14:50:04 2019 +0800
+
+    GC2385最高支持200W像素，GC030ASUB 最高支持30W像素
+
+commit 0b235abe042cefad0e56f0f093d7a82b1109cef9
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 14 18:06:10 2019 +0800
+
+    Revert "Camera:gc030asub gc2385mipi"
+    
+    This reverts commit fbf684fff21556f2f887a7b3e7c48e36fcbe1fc4.
+
+commit 1bbb412ff1327d2718bffc76c660a4af9411ea18
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 14 11:25:52 2019 +0800
+
+    锁定FINGERPRINT 1547171725
+
+commit c0dabbf6ac076592138f69b1de15e099322ecdf4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 12 18:03:16 2019 +0800
+
+    Version:ONA19TB002_20190112_gmstest1
+
+commit 0b5c6a9798a929efa6178ff354ced5ccfb7bec55
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sat Jan 12 17:06:11 2019 +0800
+
+    Settings:U盘存储设备的图标显示错误
+
+commit 7da7f60779b2bd49f09146d42ae61f634d5d9212
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 12 17:52:26 2019 +0800
+
+    GMS:FOV:前43 后48
+
+commit b6e92d2d358e2b386ce748638123f56984bd839a
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Sat Jan 12 17:15:56 2019 +0800
+
+    使用自定义签名文件
+
+commit a44cbbf9299cd4b0949769e429ca09bc1bab7ddc
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Jan 12 11:32:07 2019 +0800
+
+     Items:(MT8163)
+          1,camera.main.orientation
+          2,camera.sub.orientation
+
+commit cbd665eda05e586cb9906e6ddf1bc899af4efb29
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Jan 11 17:19:26 2019 +0800
+
+    DDR: 增加3+32的EMCP的兼容
+
+commit 70456ffc8ad8b9728bbb3158150f3c5d168a086b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Jan 12 17:17:58 2019 +0800
+
+    fingerprint 固定 1547171725
+
+commit 7843802a864990ec0080e69de2f37e3be6a99d06
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 11 17:58:29 2019 +0800
+
+    Version:ONA19TB002_20190112
+
+commit 910ddfc09fae3ad5204994eca9a01a0a24c08e7c
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Jan 11 17:10:14 2019 +0800
+
+    TP 打开ESD功能
+
+commit 92657e82c7d1e343b75c5f315c56ac60c39a6a65
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Wed Jan 9 09:04:08 2019 +0800
+
+    GMS: 删除WMA,WMAPRO的支持
+
+commit cf21ad8b2dde2c6189ce0ed390282a1586d94d6f
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Wed Jan 9 08:59:53 2019 +0800
+
+    CtsSecurityHostTestCases--android.cts.security.SELinuxNeverallowRulesTest#testNeverallowRules109
+
+commit 6b44e34c461c1a19ff0951155decc7520143e7e4
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Mon Jan 7 18:00:09 2019 +0800
+
+    CtsPermission2TestCases --android.permission2.cts.PrivappPermissionsTest#testPrivappPermissionsEnforcement
+
+commit 929f561890670525bfe7c804b81a5f921e5bf1b8
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Fri Dec 28 09:13:07 2018 +0800
+
+    GTS:GtsPermissionTestCases --com.google.android.permission.gtsDefaultPermissionGrantPolicyTest#testFefaultGrantsWithRemoteExceptios
+
+commit fb024accd81e6c467d3466638f2db8dd4c875a54
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Thu Dec 27 16:35:37 2018 +0800
+
+    GTS6.0_R3:GtsGmscoreHostTestCases --com.google.android.gts.provisioning.ProvisioningHostTest#testDeviceProvisioningPackageName
+
+commit 2f9046cb7ad72f9f097cab33a9017165c6cb6577
+Author: chenhao <chenhao@joyargroup.com>
+Date:   Thu Dec 27 16:09:48 2018 +0800
+
+    GTS6.0_R3:GtsBackupHostTestCases -- com.google.android.gts.backup.BackupHostTest#testGmsBackupTransportIsDefault
+
+commit 0524746f3c2bb87929a66015132781307d4f1444
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 11 10:58:08 2019 +0800
+
+    SystemUI: 锁屏界面点击切换用户时显示的图标和文字改为白色
+
+commit 9fc9382daef262b7b9cacd9861107cb2a34fcc0f
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 11 10:47:31 2019 +0800
+
+    APPS: remove LiveWallpapers LiveWallpapersPicker
+
+commit 4aaa482d1ca8e5956831cd574d7b3efac613ec81
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 11 14:07:47 2019 +0800
+
+    WallpaperPicker: add more wallpaper
+
+commit fbf684fff21556f2f887a7b3e7c48e36fcbe1fc4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 11 13:58:36 2019 +0800
+
+    Camera:gc030asub gc2385mipi
+
+commit dcc74b7fe26ab5ee257722c2df5fbe45a7bb525a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 11 09:48:05 2019 +0800
+
+    Version:ONA19TB002_20190111
+
+commit c6313ed6f28386f6d90e3517161928cfd7db6ffd
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Jan 11 09:32:17 2019 +0800
+
+    休眠唤醒重启问题修复：DDR map调整
+
+commit 48cc7ebb9335e1b8105a64dcec286e73a3ff7226
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 11 09:44:32 2019 +0800
+
+    使用DeskClock
+
+commit 356f4d8ca38a25dd901d25d8d98faf5cdf9df63a
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Jan 11 09:11:35 2019 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.39.1
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/android.hardware.camera.xml
+
+commit ae7fe3570d2b0762b40ec4b278ea6936fe95efac
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 10 16:00:39 2019 +0800
+
+    Version:ONA19TB002_20190110
+
+commit 3875bb21c5e3c0b719614eaf0e150bb2b8c5e0e3
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 10 14:03:03 2019 +0800
+
+    休眠唤醒后锁屏界面显示的时钟无日期显示问题
+
+commit 797d657ea2c30825cbc48d5425c24e8d04759490
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 10 15:34:08 2019 +0800
+
+    Battery: add 100 date (ocv-dod-r),discharger when NTC >=60 and NTC <=-10
+
+commit 2417931c63771a398339eeaa370f637cb99b2e2f
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Jan 10 11:33:09 2019 +0800
+
+    停止播放音乐后，优化缩短喇叭底噪时间
+
+commit 416dac38b3ecbc675e30a789c71cedb32a2e7f47
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Jan 10 11:26:45 2019 +0800
+
+    fix:横屏状态休眠竖屏唤醒闪一下屏
+
+commit 237ab1b58acd9e795110f7e1d6b0de976ddd3c6e
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Jan 10 10:35:27 2019 +0800
+
+    factory mode:camera test is pass
+
+commit 97f84a01181fb3349a51a36bf3d1d8229f2cfb18
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Jan 10 11:21:44 2019 +0800
+
+    Battery: fix set soc to rtc error
+
+commit ed4b3851b04de896e6d07cec36c469d0173c36ef
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 10 11:09:58 2019 +0800
+
+    PRODUCT_AAPT_PREF_CONFIG := mdpi
+
+commit a05d50112690c64fc6c71b5abcfda72e6a6a0f27
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 10 11:08:52 2019 +0800
+
+    8寸电池曲线1
+
+commit 1d39bd0cf1d0c6fc47b4c03848c6c2dd276e64b7
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 9 19:31:42 2019 +0800
+
+    Appwidget: 解决开机桌面小部件加载慢bug(FAQ16697)
+
+commit fd783a2d5af6facc5b5dc8132fc58299950313a8
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 9 14:09:02 2019 +0800
+
+    解决默认锁屏为无的情况下连续休眠唤醒两次点击按钮或者进度条状态不变问题
+
+commit 862156655ccac539236e1f834775c38edd7ea13a
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 9 18:35:48 2019 +0800
+
+    PrintSpooler: fix error of print photo from gallery
+
+commit 84d59034e0d49f0a19098e2fca44b8513c6440df
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 9 17:57:24 2019 +0800
+
+    SystemUI: fix otg slide up sometimes fail to unlock screen
+
+commit 4167dddb67d0ccf5b83de3523f09c150768f523e
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 9 17:26:27 2019 +0800
+
+    Settings: Add never asleep option
+
+commit c33c8ce621fa3681b207b4f88590ff2a08287d41
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 9 16:53:54 2019 +0800
+
+    Recovery: Show menu when recovery start
+
+commit eaa9b2c8f690f57b79c4475cfb3d09d1ff5f24cb
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 9 16:29:48 2019 +0800
+
+    Recovery: add rotation for recovery ui
+
+commit a1c042cdbb049eba5b6f9b0e1b9a1a74644470ef
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Tue Jan 8 18:24:05 2019 +0800
+
+    Charger: (fan5405)Set Pre-cc 800mA when battery over discharge
+
+commit c96cfba91a0d03e1cb61bc0aeb892522b8186153
+Author: [LiW] <wei.li@szroco.com>
+Date:   Wed Jan 9 18:34:01 2019 +0800
+
+    设置里顶部 保护手机的安全 改成 设备
+
+commit dd3e56a54312a1c63ecb501265c050877dce395f
+Author: [LiW] <wei.li@szroco.com>
+Date:   Wed Jan 9 18:27:29 2019 +0800
+
+    设置-应用和通知-通知-勿扰模式 里的phone改成device，去掉vibrate
+
+commit b27d7aaf07e9d1f13ef9daa498f40dc4aa7066d8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Jan 9 18:29:41 2019 +0800
+
+    去掉设置-MiraVision
+
+commit 30f61a0c0525479ba8fb509f28ac1337b8d5264f
+Author: zhenglj <zhenglj@szroco.com>
+Date:   Wed Jan 9 18:24:35 2019 +0800
+
+    MtkSettings:
+    设置-应用和通知-特殊权限中删除付费短信权限的选项
+
+commit fe70c5c1bca9324d7371cfec055dec7628050df3
+Author: zhenglj <zhenglj@szroco.com>
+Date:   Wed Jan 9 10:16:05 2019 +0800
+
+    修改音频资源文件加大音量：Lock.ogg，Unlock.ogg，Effect_Tick_48k.ogg
+
+commit d01ea6de0f38779e6742edf890c0e719d7a4a299
+Author: zhenglj <zhenglj@szroco.com>
+Date:   Wed Jan 9 10:04:19 2019 +0800
+
+    Revert "更换触摸声音,解锁声音"
+    
+    This reverts commit 1431345556e8f9794587e80a49d498f160d9435d.
+
+commit 9646d729c6ad4b6f86c6922aa46d2d4a8135e9c1
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 18:26:26 2019 +0800
+
+    Version:ONA19TB002_20190108
+
+commit 1431345556e8f9794587e80a49d498f160d9435d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 14:04:49 2019 +0800
+
+    更换触摸声音,解锁声音
+
+commit e6554b5d9f16c7a18964867841064d11332f11d2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 18:25:04 2019 +0800
+
+    Revert "increase Volume double:Lock.ogg,Unlock.ogg,Effect_Tick_48k.ogg"
+    
+    This reverts commit 2f664e8970546472a88d581041ef9b7ce6048f25.
+
+commit 5db2628cf18b4b3ddc2a63ab6a0c51baf2533987
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jan 8 15:56:56 2019 +0800
+
+    更新预置apk
+
+commit 9eabe1ae5143036580dce3293d4ecf124afbaac6
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 18:15:39 2019 +0800
+
+    解决显示大小设为最大导航栏按钮显示异常问题
+
+commit 3a4c9432d3c35e02a8af6a2ca985ce604900a093
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Jan 8 15:54:36 2019 +0800
+
+    settings about:show serial number
+
+commit 45abf5f39ec9cb2c5f65ebc12db07c7633d7f5a7
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Tue Jan 8 16:11:26 2019 +0800
+
+    3G ddr 解析补充,增加2die 4die
+
+commit a8a0b80acd87090082f93cc97514308bb41e6def
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 17:40:46 2019 +0800
+
+    去掉震动功能
+
+commit 83d9df00b04113d3aa7ed892b4e67ed67a534f37
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 17:30:56 2019 +0800
+
+    Camera:gc2385mipi_raw gc030asub_mipi_raw
+
+commit 2f9c5df370c9a823de37871b9d87aa2e051546ce
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 16:03:21 2019 +0800
+
+    8寸壁纸居中
+
+commit 2f664e8970546472a88d581041ef9b7ce6048f25
+Author: zhenglj <zhenglj@szroco.com>
+Date:   Tue Jan 8 15:52:34 2019 +0800
+
+    increase Volume double:Lock.ogg,Unlock.ogg,Effect_Tick_48k.ogg
+
+commit 7b6f94bf6a2a329d1a9a881efa22089463b2c342
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 2 11:36:11 2019 +0800
+
+    Battery: 修改开关机跳点
+
+commit c8f9057e0c535304b4bc66360af69af10cdaa936
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Jan 7 19:59:34 2019 +0800
+
+    C806I: Fix Vol- key(FCHR) not work in lk mode
+
+commit 65b41b76b9d9ef037c937e18d23d44f246a72cfa
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 09:44:41 2019 +0800
+
+    Revert "删除下拉菜单闪光灯项"
+    
+    This reverts commit cccbde93597c71e39af53b215fe4e34d249934e9.
+
+commit 7a26ae619e46b6413cf8c1577faff2b47eb3c882
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Jan 8 09:42:30 2019 +0800
+
+    Camera:去掉闪光灯,对焦等相关功能
+
+commit 35b375e389235d0793a05b469fc4a8fe3c75bdfd
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 7 18:03:41 2019 +0800
+
+    DDR: 3G解析补充
+
+commit 2aea1cd2cac48d3ff86cbc6f0da19263195962e5
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 16:47:29 2019 +0800
+
+    删除 设置-显示-屏保-启用时间选项中，有“插入基座”字眼选项
+
+commit fed67a3f78b8a89e101c8a1a59977f940b9e8a33
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 16:46:25 2019 +0800
+
+    删除 设置-声音-默认闹钟提示音 中 重复声音文件
+
+commit b1a19fd5f01542d022491940a7158412fe332805
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 17:58:39 2019 +0800
+
+    修改antutu检测 屏幕尺寸为8.0inches
+
+commit c959df97700174e9125475ab7afaca3f70414b3b
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 09:08:13 2019 +0800
+
+    Deskclock 中更新 mHasVibrator = false
+
+commit 73e84d3c66e38b2146b3f38a044d8e64e80da463
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 7 14:58:49 2019 +0800
+
+    预置3G DDR到配置表中
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/mid/C732I/custom_MemoryDevice.h
+
+commit dc2d9238cb5fda76da3ca9440d5ab080263275f3
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 09:05:05 2019 +0800
+
+    删除设置-声音中的振动相关选项
+
+commit 11bbf62f7b86dad38052c4bbb4295f7c416fd276
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 08:59:21 2019 +0800
+
+     修改设置-显示-MiraVision选项报错问题
+
+commit b8016a06054ba023b2f41a454c28f0aedd1f75ec
+Author: zhou zhao <zhouzhao@szroco.com>
+Date:   Mon Jan 7 08:57:25 2019 +0800
+
+    设置-无障碍-互动控件中，删除振动功能设置项
+
+commit 30acef682ca3eb106a9f45e43deb9f017f0d107a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 15:22:29 2019 +0800
+
+    GMS:gmsexpress
+
+commit c91df22e30e39d0f5df9f4dfec71f0472014275d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 15:21:25 2019 +0800
+
+    items.ini
+
+commit 70c32f528ff2c38ace22abd3d455f0deaa2a74f6
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 15:20:45 2019 +0800
+
+    默认亮度35%
+
+commit a2491d30a7bdacd7568fa2852d516f159fb222f3
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 14:48:40 2019 +0800
+
+    默认音量50%
+
+commit a97e1ea837e476360a3ebcd8d5e94f607fe30bd2
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 3 09:53:14 2019 +0800
+
+    更改预置的apk路径
+
+commit cccbde93597c71e39af53b215fe4e34d249934e9
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Dec 29 16:12:10 2018 +0800
+
+    删除下拉菜单闪光灯项
+
+commit 7e44b692e434eca02a795279b2c285da90dacaec
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Dec 29 15:40:51 2018 +0800
+
+    删除设置-声音震动相关内容
+    修改设置-声音-包含震动的title
+
+commit 17b8d07dcc94209f32637ff039537f979ef9b086
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 7 14:09:44 2019 +0800
+
+    修复连接蓝牙键盘，键盘Esc键无作用
+
+commit e163191abf0b31e24f0301e6588cd1cf918f3bfc
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Jan 7 11:52:10 2019 +0800
+
+    DDR:更新DDR时序表，增加3GB DDR
+
+commit 1d4a772f819bb9ba94c3300024e47eb9975f1d71
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 14:12:18 2019 +0800
+
+    Version:ONA19TB002_20190104_0107
+
+commit 81a5a8c9eebeeab0a70bf606ec3908b266a8033f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 11:53:20 2019 +0800
+
+    DDR:1066
+
+commit e74397cd1022e3978c17ed1997eed6432e339811
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Mon Jan 7 11:52:27 2019 +0800
+
+    Fix reboot phone after set pin, occur NPE.
+
+commit 6ec136d8d1cd0f303f60622f1bf89506f5f87089
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun Jan 6 14:17:05 2019 +0800
+
+    MTK_LOG_CUSTOMER_SUPPORT = yes
+
+commit 51099f59338b25b18372cc6b6d805a5756dfa8ec
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun Jan 6 10:54:33 2019 +0800
+
+    Version:ONA19TB002_20190104_0106
+
+commit 7ad2f3013ae8a6b677b77298ee8052933256c39d
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sun Jan 6 10:22:27 2019 +0800
+
+    Brightness: 亮度均匀变化
+
+commit ecebbdef1cf66551eb00b6d4c6e0cdc6d39d811b
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Jan 5 18:43:34 2019 +0800
+
+    DDR:增加3GB(2+1)ddr的解析
+
+commit fa59b5d08d4dba8ac966e18814805a195384010d
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sat Jan 5 16:20:47 2019 +0800
+
+    GMS:[ro.build.version.incremental]值与FINGERPRINT中不一致问题
+
+commit 33dab51872ea2fa2351a281717eba10dc9f38d4b
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sat Jan 5 15:51:22 2019 +0800
+
+    Music:将音乐添加到新建播放列表保存弹出权限提示问题
+
+commit b81c40b8b1924bfd38f7af3fba9c40a0dd5516fc
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Jan 5 15:47:52 2019 +0800
+
+    解决使用12小时制时,状态栏显示的时间无AM/PM区分显示
+
+commit 134ffdef60ba78bbc3ec280ef190fea283fbe5bd
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Jan 5 15:24:12 2019 +0800
+
+    items：support audio.two.speaker与单喇叭切换
+
+commit bbed09fb92a3e1c5351ba077ddeaf5d873dbda1a
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 4 17:25:11 2019 +0800
+
+    GMS:FINGERPRINT中BF_BUILD_NUMBER值改用时间戳替换
+
+commit 73a722d3c9b6ce757327acfb806abd873aa6a373
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 4 17:57:02 2019 +0800
+
+    Version:ONA19TB002_20190104
+
+commit 6eb05e3754fca04ea4d266b0d7eeb990ec18089a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 4 17:54:25 2019 +0800
+
+    型号fingerprint等申请key
+
+commit 14025b954d7c60d644f2023b1d858d360b44736f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 4 17:53:54 2019 +0800
+
+    TP的10点触控改为5点触控
+
+commit de742d91b0187b5f1180e656f81b13dc4958fa7f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Jan 4 11:43:14 2019 +0800
+
+    ro.com.google.clientidbase=android-joyar
+
+commit 4be2d4a5aa77197e1de95a00991b064e9ae509c4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 3 17:27:08 2019 +0800
+
+    Revert "修复横屏时下拉菜单栏，快捷图标位置偏位"
+    
+    This reverts commit bbf624f97cabbbe3e9c20e986366f66a6cea2d69.
+
+commit 870fd6b7c981f063eea1f88493133e2a6c1365e2
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Jan 3 16:47:51 2019 +0800
+
+    SystemUI:下拉框显示完整
+
+commit 0372a37392282fea350a60ca4e87f41427043bd8
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 18:32:44 2018 +0800
+
+    去掉MtkLauncher3QuickStep
+
+commit c5714a10fbb1dfefef00adf61366d1de9e193978
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 15:29:44 2018 +0800
+
+    Version:ONA19TB002_20181229
+
+commit 170a9d976a50aa80e56d90278e596c6f1d2b6e8a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 15:28:22 2018 +0800
+
+    8寸电池曲线
+
+commit c9041826ac5c10f9e921b2ebb242c03f4193e079
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 14:44:52 2018 +0800
+
+    桌面时钟
+    打开广升OTA
+    去掉HDMI
+
+commit 3cca8aa8463eb4032d6c3fd965c86a065a1c7ce7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 14:43:18 2018 +0800
+
+    apk:SearchLauncher
+
+commit 1f58af259c495b23d87fa6a5160ac3f5cbddc203
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Dec 28 22:59:59 2018 +0800
+
+    OTA:编译失败问题
+
+commit 143bbe372099d848f563401a8a5f5f6f1d67aadd
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Dec 26 20:00:28 2018 +0800
+
+    Add Fota: ADUPS_FOTA_SUPPORT
+    
+    Conflicts:
+    	device/mediateksample/tb8163p3_64_bsp/ProjectConfig.mk
+
+commit ed2d9c7457236d605a9098b2cb20da0f0a9764cc
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Sat Dec 29 09:12:15 2018 +0800
+
+    Version:ONA19TB002_20181226
+
+commit 5752f0c57fee055bac624ae33987224f79f4e5ef
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Fri Dec 28 17:46:54 2018 +0800
+
+    BOARD_MTK_SYSTEM_SIZE_KB 2457600
+
+commit ccc376b8bbee6ee135c0538d0ea16ad7fb9239db
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Thu Dec 27 09:57:29 2018 +0800
+
+    更新DDR
+
+commit db5f23dc52e88a73f5a0d31ac7c59405a628d480
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 21:39:23 2018 +0800
+
+    Launcher3:Google文件夹名
+
+commit 6cb5ce15d972ddfe16e8128712cbdea66362745a
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 20:44:30 2018 +0800
+
+    vendor_system.prop
+
+commit 5f5a87c03264e9f69572d368b58d4ad4ecab52f7
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 19:58:13 2018 +0800
+
+    8寸:wxga 800*1280
+
+commit a6c7dbd37664db9eb97edcb5faaf1448c3f6a10f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 19:57:19 2018 +0800
+
+    桌面布局
+
+commit 6b0956950b09501f454b81b42d18736c493a8f24
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 16:10:57 2018 +0800
+
+    8寸:ONA19TB002等名称
+
+commit f09a871ccd68bfc9a1024225906068ac20a92f0f
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 16:03:25 2018 +0800
+
+    默认壁纸
+
+commit 37dd31ad1da48d1a24af86c8b81d6e0c49fb1a6b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 15:37:29 2018 +0800
+
+    8寸:开机logo 动画
+
+commit 45ba8c4f47ecf5f0e8c1432cdeace151727b0233
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 15:35:49 2018 +0800
+
+    Revert "10寸64位:items"
+    
+    This reverts commit 3c9e71d69f6db72a0330908f677b232b2c220967.
+
+commit 694f4e6fac0af8fabde1c5def52999eb77fa3b4b
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 15:25:18 2018 +0800
+
+    Revert "真横屏:MTK_LCM_PHYSICAL_ROTATION = 90"
+    
+    This reverts commit 98bfbe47300180b719073c30f7531e010a53465e.
+
+commit fe59c13c9ba6610d8d5bc4dda575e9cdbdab3e56
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Dec 26 13:54:22 2018 +0800
+
+    1.更改时区
+    2.带NTC,charging:0~55,高于70自动关机
+    3.默认开启wifi，亮度，关闭蓝牙
+
+commit ae8bf0266bd63db9d8287cf96ccd673e4c4ba23e
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 14:08:02 2018 +0800
+
+    真横屏:MTK_LCM_PHYSICAL_ROTATION = 90
+
+commit 220d93599cfd1d338f7f685e86576d1ea332eff4
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 14:07:17 2018 +0800
+
+    开机logo 动画
+
+commit 43393c8a54b88564e52f74c895430d281b769fae
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Wed Dec 26 14:01:53 2018 +0800
+
+    10寸64位:items
+
+commit 15b3e27e63771286aaa90d9f1b1fb1e5f44e3e50
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Dec 25 17:10:24 2018 +0800
+
+    解决导航栏星号按钮颜色状态不变问题
+
+commit 8883182202bafbd1aca1b8be609f4426f0e8f258
+Author: zhuangwf <wenfang.zhuang@szroco.com>
+Date:   Tue Dec 25 09:57:35 2018 +0800
+
+    10寸:c732_zs_hx8394a01_inx_wxga_ips_101 C732_DFL_WXGA_101
+
+commit 5516a8161173a90ba923e0a798d22d39f65fdebc
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Dec 25 09:24:29 2018 +0800
+
+    合入音频参数
+
+commit 7f433c17c6c6d9cb756ab79559b7a1fabafe2101
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Dec 25 08:40:16 2018 +0800
+
+    导航栏上增加启动按钮
+
+commit 90c4159e166bacdac82f0bf10a21d286ef1a1705
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Tue Dec 25 08:38:01 2018 +0800
+
+    预置apk
+
+commit 98a2f2cbef6785185e8022b8f1dee9fe6bc7eec7
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Mon Dec 24 13:18:29 2018 +0800
+
+    launcher3:searchbox移置hotseat上
+
+commit d6d21b6e053ee34e630e7ef345e0236a7c084547
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Sat Dec 22 18:08:03 2018 +0800
+
+    更改system分区大小
+
+commit d8a1866c996343a2db0f31218f12a230d783d885
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Fri Jan 4 09:47:46 2019 +0800
+
+    STREAM_ALARM:Maximum volume=15
+
+commit 6520d4c73320154fa31cb7bd807ec2e1763c64fa
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Jan 3 09:27:17 2019 +0800
+
+    OP01SoundRecorder: add SoundRecorder from O1
+
+commit 3a5b118d6ec4ae03043b399317f0834aef47f3e1
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Jan 3 16:40:32 2019 +0800
+
+    更新DDR时序表
+
+commit bbf624f97cabbbe3e9c20e986366f66a6cea2d69
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Thu Jan 3 10:30:14 2019 +0800
+
+    修复横屏时下拉菜单栏，快捷图标位置偏位
+
+commit 0e11c4135c0d5e1dce94c8c90e39c1f063de9682
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Jan 2 17:14:07 2019 +0800
+
+    修正DDR时序表属性栏填充颜色覆盖字体了
+
+commit 999bde13b2366d067954d215ab1a6782f92d1316
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Jan 2 16:26:37 2019 +0800
+
+    5867:轻轻旋转耳机拔出耳机图标没有消失-->3段4段耳机来回跳变
+
+commit 9ca961647cab3e586a9791884603216ba64279ec
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 2 15:50:34 2019 +0800
+
+    OTA:将items从OTA升级区中去除
+
+commit a578b630d2091be058438d853a156db8ddaf285d
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Wed Jan 2 15:36:06 2019 +0800
+
+    Add Fota: ADUPS_FOTA_SUPPORT
+
+commit eba30fec563cc9c924914098403c420d17a4beed
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 2 14:27:29 2019 +0800
+
+    C806I: system 分区增大到2.5G
+
+commit 4acd0d410c2b276cd5334c8434cb8fc8ea025ebb
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Jan 2 11:36:11 2019 +0800
+
+    Battery: 修改开关机跳点
+
+commit 54a62b13fb7e0cd3de0edce22ed76f0f8657f998
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sun Dec 30 18:46:53 2018 +0800
+
+    system 分区增大到2.5g
+
+commit bef6537242d0782dd80087b8ea8310e8b95c7a7e
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sun Dec 30 18:45:44 2018 +0800
+
+    ddr clk 配置放在对应项目中
+
+commit 8c565ff4d6df5c4854cca6b1336b91f97d8a61ba
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sun Dec 30 15:33:32 2018 +0800
+
+          Items:(MT8163)
+                uart.printk
+
+commit c275f7ed9f497da1ad3311c11970a13d00876144
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 29 18:23:33 2018 +0800
+
+    factory：GC2385 后摄auto测试失败修改
+
+commit 88f61134f1e4c4f4e0a54204457003feed3b5d8f
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Sat Dec 29 15:36:45 2018 +0800
+
+    删除设置-声音-通话相关内容
+
+commit 72d0a666e20ff51b76c79463cf79c643941ac352
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Dec 29 16:34:36 2018 +0800
+
+    MTK patch: t-alps-release-p0.mp6-V1.30
+
+commit 5efe61015420aec348bcf4ab62806143ece690df
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Dec 28 11:37:44 2018 +0800
+
+    5951:插OTG U盘主板发烫->otg功能改为充电IC控制
+
+commit 35fc361428584bb577592196cc0a9d5938cd864a
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 27 17:28:21 2018 +0800
+
+    C806I: Support Keyboard
+
+commit 124e508b47d91bcdae6cda88c97bf37161d17049
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 27 17:10:39 2018 +0800
+
+    EMCP: EMCP兼容
+
+commit 8ce5e7a84c119330f829f79d2f737c1f39d63f30
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Dec 27 16:36:26 2018 +0800
+
+    解决开启蓝牙状态栏无蓝牙图标显示问题
+
+commit 0a8cc9b60e0680d892f3dd03792a64d9a713ca1a
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 27 15:50:26 2018 +0800
+
+    Input: OTG Mouse Right Buttion --> Back Fuction
+
+commit 942fd4e50f3644083efbd167eb71a659b73779b0
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Thu Dec 27 14:10:55 2018 +0800
+
+    modify gms.mk
+    Overlay: Music2 >> MusicBspPlus
+
+commit 7fda0a4685744985add41a410de0961d736ec9cc
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 27 14:09:17 2018 +0800
+
+      Items:(MT8163)
+            audio.two.speaker
+
+commit b31b2b6fa941d3e5b799f017d0ad537b6f547fd7
+Author: hefengcai <hefengcai@joyargroup.com>
+Date:   Thu Dec 27 13:21:02 2018 +0800
+
+    下拉菜单栏与通知栏始终保持对齐
+
+commit 216e5baf028faf4df4a88bef148cedb01cf20384
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 27 11:49:30 2018 +0800
+
+    C805I: Accdet use gpio26(eint4)
+
+commit d61c2b47410fe33b2cfb2dcc927bcf6c563e0983
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Dec 27 10:34:02 2018 +0800
+
+    64位 eng版本编译报错问题修正
+
+commit 5598729cdda710c8b3a97e72bf91ba8dc1e40eef
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Thu Dec 27 09:54:08 2018 +0800
+
+    C732兼容多个型号的DDR
+
+commit b1e47473b5bba149cde544456f3eb49b6f55e232
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Dec 26 18:35:48 2018 +0800
+
+    修改写SN号不生效问题
+
+commit 8bc432a5f9e9fe1f297d126ae0c068144e1b3c2b
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Dec 26 13:47:53 2018 +0800
+
+    更新公版的ddr信息
+
+commit 0c88d2186fe5abb9c5611d861831cafa0e44ae9a
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Dec 26 13:40:10 2018 +0800
+
+    c732i 充电IC：FAN5405
+
+commit 383c6c6c7ba5006c391fb30f816b1b872edf6dff
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 26 10:21:05 2018 +0800
+
+    C806I: Add 64bit project
+
+commit 4108839b8bdeb4e3664205e46df4576d0064770b
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Tue Dec 25 19:45:10 2018 +0800
+
+    C732I 64bit 工程
+
+commit 50b6bb177fd4f822fbb19084ebdc1ec26b90d921
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Tue Dec 25 18:23:34 2018 +0800
+
+    64位code:camera items适配
+
+commit 5af4fa0ca22a6de7e38829c376073d83e311e1ec
+Author: karl.kuang <kuangzc@joyargroup.com>
+Date:   Tue Dec 25 11:11:12 2018 +0800
+
+    gms version:
+       ro.com.google.gmsversion=9_201812
+       modify the system partition
+
+commit 4df120a0f8bd5f5b58e49812cae97eb5b5c58f47
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Dec 24 20:02:27 2018 +0800
+
+      Selinux:
+              1, audio.useExternAmp
+              2, audio.two.speaker
+              3, camera.main.orientation
+              4, camera.sub.orientation
+
+commit 0c5d94fac4cac599e771aea00ec38b02018e0cc6
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Mon Dec 24 15:08:47 2018 +0800
+
+      C806:
+           1,TP:C806_DFL_WXGANL_101
+           2,Support Hall
+           3,FCHR as VOL- key
+
+commit 361497cbcac99a9f098942f7ea19bd9ed065c23c
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Mon Dec 24 11:36:18 2018 +0800
+
+    C732 sdcard配置
+
+commit b435ea7ff34c4e45557c5408ec33e4e99431e700
+Author: zhengqf <zhengqf@joyargroup.com>
+Date:   Sun Dec 23 15:31:01 2018 +0800
+
+    FactoryMode: add FactoryMode
+
+commit 03dc0a55120a07fde0379fd67ae29519a6fa2e35
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sun Dec 23 14:30:53 2018 +0800
+
+      Items:(MT8163)
+            audio.useExternAmp
+
+commit d51e7502db8997e45a9e747e5114bfdc394885b0
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sun Dec 23 14:26:01 2018 +0800
+
+    Items:(MT8163)
+                   1,framework and native
+
+commit 7586ecd818981fb14dfa587e3dc2ce04c86c4d88
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 16:24:38 2018 +0800
+
+    前摄 gc030Asu成像上下翻转修改
+
+commit bd5c37cd23c561b89810e585e7287cc1f94c2164
+Author: zhengqf <zhengqf@joyargroup.com>
+Date:   Sat Dec 22 15:47:27 2018 +0800
+
+    Frameworks: fix udisk not show in filemanager
+
+commit 654de902115e503713b3b23911743fd5c1e312a0
+Author: zhengqf <zhengqf@joyargroup.com>
+Date:   Sat Dec 22 15:11:42 2018 +0800
+
+    GMS:
+        DONT_DEXPREOPT_PREBUILTS := false (pick up odex for gms app when)
+        ro.com.google.gmsversion=9_201810
+
+commit 60dc93e8225d5e52bc076fc6985b686b84157304
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 14:43:56 2018 +0800
+
+    上拉GPIO35,将OTG的Vbus拉高到5V
+
+commit 4e527bfcec488172ca6ec68c9af5ae2a85e43d36
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Sat Dec 22 14:31:30 2018 +0800
+
+    Charger: 兼容HL7005/HL7007/PR5415/PR5425
+
+commit 5057e5db53ba0780e827e47906589933817da5e3
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 11:07:20 2018 +0800
+
+    c732：mc34xx gsensor 方向调整
+
+commit 8b2620e0ec5b09f98209bf50f9e56d25a61a8ce1
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 10:35:19 2018 +0800
+
+    TP驱动兼容PMIC与vgp不同供电通道的上电，增加c732参数8寸
+
+commit 690ec0564e5666636193805057dfd9757ed614ed
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 10:32:13 2018 +0800
+
+    更新c732 配置信息
+
+commit 4ec311f0c14e0bf2c5e43a2d772f5d520b82bd3e
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Sat Dec 22 10:31:01 2018 +0800
+
+    C732增加10.1寸屏驱动
+
+commit 7f2a941e5b2058dfb2b29e0814040e3aa092411b
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Dec 21 16:41:34 2018 +0800
+
+    DDR: Add Emcp(2+16)
+
+commit 600fa48105be38163af96df8f69804787f291a68
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Dec 21 16:01:57 2018 +0800
+
+    kernel: lcd 公用GPIO解析
+
+commit d658a6644486458626680d57d3a482b234201917
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Dec 21 15:48:08 2018 +0800
+
+    修改LCD驱动适应ITEMS
+
+commit 175fff04138fcfde67b894bb1129d29922959ba7
+Merge: af82bf7 300eeba
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Dec 21 15:36:58 2018 +0800
+
+    Merge branch 'master' of 192.168.122.239:P08163_git
+
+commit af82bf70bddac8f1087ea4d9ffb6e18ea4eadc83
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Dec 21 15:35:12 2018 +0800
+
+    Camera: Camera2 always show camera icon
+
+commit 4cf833802a09b2ff70453d2fe16ff9841a32e041
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Fri Dec 21 15:34:01 2018 +0800
+
+    Camera: GC2385+GC030ASUB (MT8163)
+
+commit 300eeba5e8e9cdbac7eed3814e49fe0586e90d4a
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Dec 21 14:24:33 2018 +0800
+
+    增加一个TP驱动C732
+
+commit e71df13d82f8a68fb5b0b896f26d97441cdd7748
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Fri Dec 21 11:47:28 2018 +0800
+
+    c732 项目增加与TP参数增加
+
+commit 44fea8f2feb8f9078c15cc40874054854f447156
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 20 20:43:43 2018 +0800
+
+    Touchscreen: 修改TP触摸无效
+
+commit 61af965a682872a25fb4ab63beaa40c3f05ce685
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 20 18:24:12 2018 +0800
+
+    G-sensor: Support Mir3d MC34xx
+
+commit 40c9807eceabd466abb8db3d787db01b20ea4c89
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Thu Dec 20 11:49:43 2018 +0800
+
+     Charger:(MT8163)
+              Support Fan5405
+
+commit 14cb414b0002dcdcb26a7c0c49cfbcbf0917b9d7
+Merge: e456d08 23c9b94
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 21:09:51 2018 +0800
+
+    merge public
+
+commit e456d08a881f6b0867e6d29883de7264fcbf6f84
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 17:05:27 2018 +0800
+
+    Touchscreen: Support gslX680
+
+commit 7641e881d837e43c31b3136b046c64bc600cd7b4
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 16:51:10 2018 +0800
+
+      Emmc:(MT8163)
+           ldo_vemc3v3 always on
+
+commit 99e80adac33372c9601b71ad5118f9884cb4cc26
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 15:18:15 2018 +0800
+
+    Project: Add C806I
+
+commit 29c4290b4e44cb190eae84137417d08412dff5da
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 11:41:09 2018 +0800
+
+         DDR:(MT8163)
+              custom_MemoryDevice.h add EMI_CLK setting custom ddr freq
+
+commit 469ef93565d731cca1178b3a51c3a19bac05eef3
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 11:03:41 2018 +0800
+
+         Items:(MT8163)
+               1,Preloader
+               2.LK
+               3.Kernel-4.9
+
+commit 0dc3b4961b31797e2418e79612e4c22f47833df4
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 10:39:52 2018 +0800
+
+        LCM: (MT8163)
+            1. move kernel lcm to mid
+            2. move LK lcm to mid
+
+commit 65a55d6f3d978e4d4572c040c1e5b8958ef64728
+Author: xuchen <chen.xu@joyargroup.com>
+Date:   Wed Dec 19 10:36:47 2018 +0800
+
+            BuildTools:(MT8163)
+                1.DCT:  Redirection codegen.dws to mid
+                2.DDR:  Redirection custom_MemoryDevice.h to mid
+                3.CFG:  Merge roco ProjectConfig.mk to Common ProjectConfig.mk
+                4.PL :  Add difference config to mid xx_pl.mk
+                5.LK :  Add difference config to mid xx_lk.mk
+                6.KERNEL: Merge mid xxx_defconfig xxx_debug_defconfig to mid
+                7.PTGEN: Redirection partition_table_MTxxxx.xls to mid  (可修改system.img大小)
+                8.ROCO:   MID_PROJECT env must set for build
+                9.lunch:  Add mid project lunch menu for auto set MID_PROJECT env
+                10.ProjectConfig:    copy ProjectConfig > /system/data/misc/ProjectConfig.mk
+                11.LOGO:   Redirection logo to roco
+                12.buildprop:  system.prop > build.prop
+                13.items: Auto cp items*.ini to out/target/product/$(TARGET_DEVICE)
+                14.deleted:    frameworks/data-binding/integration-tests/App With Spaces/app/.gitignore
+
+commit 23c9b9452d64b95c9b4d278aea4c9fa467c55bd9
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Dec 19 13:56:45 2018 +0800
+
+    dts配置与新增lcd驱动:c716_zs_hx8394a01_inx_wxga_ips_8配置
+
+commit 7b713ff7f1f80d4112ffe0bd70bb202f250a451a
+Author: huangpei <huangpei@joyargroup.com>
+Date:   Wed Dec 19 13:46:37 2018 +0800
+
+    DDR 信息配置,CLOCK = 1066
+
+commit b1961c8c34fa096530d619959581f662f1e15a32
+Author: Jerry <hexh@szroco.com>
+Date:   Tue Dec 18 17:31:39 2018 +0800
+
+    t-alps-release-p0.mp6-V1.20

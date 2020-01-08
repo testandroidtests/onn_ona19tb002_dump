@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- These are configurations that must exist on all GMS devices. -->
+<config>
+       <!-- Track GMSExpress plus log-->
+       <feature name="com.google.android.feature.GMSEXPRESS_PLUS_BUILD" />
+</config>
